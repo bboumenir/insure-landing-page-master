@@ -6,9 +6,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,500;1,400;1,500&display=swap" rel="stylesheet">
-  
-  <title>Frontend Mentor | Clipboard landing page</title>
+  <link rel="" href="https://fonts.google.com/specimen/DM+Serif+Display">
+  <title>Frontend Mentor | Insure landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -16,129 +15,169 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
+<body id="js-body">
 
-<!--**************** HEADER
-                 ***************************-->
+  <!-- *********************************   NAV-BAR  ********************************* -->
 
+<div id="nav-bar">
+  
+       <img src="images/logo.svg" alt="logo">
+       <img id="icon-menu" src="images/icon-hamburger.svg" alt="icon">
 
-<div class="header">
-         <img id="logo" src="images/logo.svg" alt="logo">
-         <h1>A history of everything you copy</h1>
-
-         <p>Clipboard allows you to track and organize everything you 
-         copy. Instantly access your clipboard on all your devices.</p>
-  <div class="header-link">
-         <a class="link-ios" hrf="#">Download for iOS</a>
-         <a class="link-mac" hrf="#">Download for Mac</a>
+    <div id="nav-bar-link">  
+       <a class="nav-bar-links" href=""> How we work </a>
+       <a class="nav-bar-links" href=""> Blog </a>
+       <a class="nav-bar-links" href="">Account </a>
+       <a id="nav-view-plans" href="">View plans</a>
+</div>
   </div>
-         <h2>Keep track of your snippets</h2>
 
-         <p>Clipboard instantly stores any item you copy in the cloud, 
-         meaning you can access your snippets immediately on all your 
-         devices. Our Mac and iOS apps will help you organize everything.</p>
-</div>
- 
-
-
-  <!--**************** BLOC_1
-                 ***************************-->
-
+     <div id="menu-mobile">
+       <div id="menu-mobile-in">
+       <a class="nav-mobile-links" href=""> How we work </a>
+       <a class="nav-mobile-links" href=""> Blog </a>
+       <a class="nav-mobile-links" href="">Account </a>
+       <a id="nav-mobile-plans" href="">View plans</a>
+       <img  id="image-top-scroll" src="images/bg-pattern-mobile-nav.svg" alt="icon">
+     </div>
+  </div>
 
 
-  <div class="first-bloc">
-      <div class="first-bloc-image">     
-         <img id="computer-image" src="images/image-computer.png" alt="computer-picture">
-  </div>       
-     <div class="first-bloc-text">
-         <h3>Quick Search</h3>
-         <p>Easily search your snippets by content, category, web address, application, and more.</p>
 
-         <h3>iCloud Sync</h3>
-         <p>Instantly saves and syncs snippets across all your devices.</p>
+   <!-- *********************************  TOP-CONTENT    ********************************* -->
 
-         <h3>Complete History</h3>
-         <p>Retrieve any snippets from the first moment you started using the app.</p>
+  <div id="top-content">
+     <div id="background-image">
+      <img  id="image-top" src="images/bg-pattern-intro-right-desktop.svg" alt="icon">
+      <img  id="image-top-mobile" src="images/bg-pattern-intro-right-mobile.svg"alt="icon">
+      <img  id="image-top-mobile-left" src="images/bg-pattern-intro-left-mobile.svg"alt="icon">
+        <div id="top-content-in">
+           <div id="top-left-content">
+      <hr id="top-line">
+      <h1>Humanizing <br> your insurance.</h1>
+      <p>Get your life insurance coverage easier and faster. We blend our expertise 
+      and technology to help you find the plan that’s right for you. Ensure you 
+      and your loved ones are protected.</p>
+      <a id="top-link" href=""> View plans</a>
+      <hr id="bottom-line">
+  </div>
+       <div id="top-right-content">
 
-    </div>
- </div>   
-
-
-  <!--**************** BLOC_2
-                 ***************************-->
-
-
-<div class="second-bloc">
-         <h2>Access Clipboard anywhere</h2>
-         <p class="image-scr">Whether you’re on the go, or at your computer, you can access all your Clipboard 
-          snippets in a few simple clicks.</p>
-         <img id="device-picture" src="images/image-devices.png" alt="device-picture">
-         <h2>Supercharge your workflow</h2>
-         <p class="image-scr">We’ve got the tools to boost your productivity.</p>
+  <img id="top-content-image" src="images/image-intro-desktop.jpg"alt="icon">
 
 </div>
-   
-     <div class="second-bloc-list">
-        <div class="inside-bloc">
-               <img class="icon-bloc2" src="images/icon-blacklist.svg" alt="icon">
-               <h3 class="bloc-title">Create blacklists</h3>
-               <p class="bloc-text">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+  </div>
+    </div>     
       </div>
-          <div class="inside-bloc">
-               <img class="icon-bloc2" src="images/icon-text.svg" alt="icon">
-               <h3 class="bloc-title">Plain text snippets</h3>
-               <p class="bloc-text">Remove unwanted formatting from copied text for a consistent look.</p>
-      </div>
-          <div class="inside-bloc">
-               <img class="icon-bloc2" src="images/icon-preview.svg" alt="icon">
-               <h3 class="bloc-title">Sneak preview</h3>
-               <p class="bloc-text">Quick preview of all snippets on your Clipboard for easy access.</p>
-         </div>
-      </div>
+<hr id="bottom-line2">
+
+  <!-- *********************************  MIDDLE-CONTENT    ********************************* -->
 
 
 
-  <!--**************** BRAND LOGO
-                 ***************************-->
-        <div class="bloc-logo">
-              <img class="brand-logo" src="images/logo-google.png" alt="google-logo">
-              <img class="brand-logo" src="images/logo-ibm.png" alt="ibm-logo">
-              <img class="brand-logo" src="images/logo-microsoft.png" alt="microsoft-logo">
-              <img class="brand-logo" src="images/logo-hp.png" alt="hp-logo">
-              <img class="brand-logo" src="images/logo-vector-graphics.png" alt="vector-logo">
-         </div>
+  <div id="middle-content">
 
-        <div class="bottom-bloc">
-                <h3>Clipboard for iOS and Mac OS</h3>
-                <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
-                and you’re ready to start adding to your clipboard.</p>
-          <div class="bottom-link">
-               <a class="link-ios" hrf="#">Download for iOS</a>
-               <a class="link-mac" hrf="#">Download for Mac</a>
-          </div>
+      <h1>We’re different</h1>
+  <div id="middle-content-box">
+      
+       <div class="box">
+      <img class="middle-images" src="images/icon-snappy-process.svg" alt="icon">
+      <h2>Snappy Process</h2>
+      <p>Our application process can be completed in minutes, not hours. Don’t get 
+      stuck filling in tedious forms.</p>
+  </div>
+
+      <div class="box">  
+      <img class="middle-images" src="images/icon-affordable-prices.svg" alt="icon">
+      <h2>Affordable Prices</h2>
+      <p>We don’t want you worrying about high monthly costs. Our prices may be low, 
+       but we still offer the best coverage possible.</p>
+  </div>     
+      
+      <div class="box">
+      <img class="middle-images" src="images/icon-people-first.svg" alt="icon">
+      <h2>People First</h2>
+      <p>Our plans aren’t full of conditions and clauses to prevent payouts. We make 
+      sure you’re covered when you need it.</p>
+  </div>
+
+</div>
+  </div>
+
+
+
+
+  <!-- *********************************  MIDDLE-BANNER    ********************************* -->
+
+<div id="middle-banner">
+    <div id="middle-banner-background">
+       <div id="middle-banner-inside">
+
+     <h3>Find out more <br> about how we work</h3>        
+     <a id="banner-link" href="">How we work</a>
+
        </div>
+   </div>
+</div>
 
 
-       <footer class="footer">
-             <img  id="logo-footer" src="images/logo.svg" alt="logo">
-       <div class="footer-nav-bar">
-             <div class="nav-in">  
-                  <a href="#">FAQs</a>
-                  <a href="#">Contact Us</a>
-             </div >  
-                 <div class="nav-in">   
-                  <a href="#">Privacy Policy</a>
-                  <a href="#">Press Kit</a>
-             </div> 
-                <div class="nav-in">     
-                  <a href="#">Install Guide</a>
-               </div> 
-          </div>
-      <div class="social-icon">
-          <img src="images/icon-facebook.svg" alt="icon-facebook">
-          <img src="images/icon-twitter.svg" alt="icon-twitter">
-          <img src="images/icon-instagram.svg" alt="icon-instagram">
-      </div>
-    </footer>
+    <!-- *********************************  FOOTER    ********************************* -->
+
+
+
+<div id="footer">
+             <div id="footer-inside">
+                      <div id="footer-top">
+      
+         <img src="images/logo.svg" alt="logo">
+   <div>
+         <img class="icon-social" src="images/icon-facebook.svg" alt="icon-facebook"alt="icon">
+         <img class="icon-social" src="images/icon-twitter.svg" alt="icon-twitter"alt="icon">
+         <img class="icon-social" src="images/icon-pinterest.svg" alt="icon-pinterest"alt="icon">
+         <img class="icon-social" src="images/icon-instagram.svg" alt="icon-instagram"alt="icon">
+</div> 
+    </div>  
+
+    <hr>
+
+    <div id="footer-bottom">
+
+  <div class="footer-menu">
+        <h5>Our company</h5>
+        <a href="">How we work</a>
+        <a href="">Why Insure?</a>
+        <a href="">View plans</a>
+        <a href="">Reviews</a>
+</div>
+
+  <div class="footer-menu">
+        <h5>Help me</h5>
+        <a href="">FAQ</a>
+        <a href="">Terms of use</a>
+        <a href="">Privacy policy</a>
+        <a href="">Cookies</a>
+</div>
+
+  <div class="footer-menu">
+        <h5>Contact</h5>
+        <a href="">Sales</a>
+        <a href="">Support</a>
+        <a href="">Live chat</a>
+</div>
+
+  <div class="footer-menu">
+        <h5>Others</h5>
+        <a href="">Careers</a>
+        <a href="">Press</a>
+        <a href="">Licenses</a>
+</div>
+
+
+</div>
+  </div> 
+    </div>
+
+
 </body>
+<script src="script.js"></script>
 </html>
